@@ -1,0 +1,12 @@
+#button {
+	cursor: pointer;
+}
+
+.button,a {
+	position: absolute;
+	top: 306px;
+	left: 65px;
+	width: 169px;
+	height: 42px;
+	z-index: 2;
+}
