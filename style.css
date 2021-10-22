@@ -1,3 +1,7 @@
+* {
+	overflow:hidden;
+}
+
 #button {
 	pointer-events:none;
 }
@@ -12,11 +16,13 @@
 }
 
 #rectangle {
-	fill: #F5FAFE;
+	
+	fill: #FCBF49;
+	stroke: #FCBF49;
 }
 
-#background {
-	
+#learnmore {
+	fill: #163A5B;
 }
 
 #vector {
@@ -26,8 +32,13 @@
 }
 
 #blob {
-	zoom: 3;
+	fill: #75AADB;
+	zoom: 3.5;
 	position: absolute;
 	top:-50px;
 	left:-80px;
+}
+
+#santelmo {
+	transform: rotate(2deg) translateX(8px);
 }
