@@ -1,5 +1,5 @@
 #button {
-	cursor: pointer;
+	pointer-events:none;
 }
 
 .button,a {
@@ -9,4 +9,25 @@
 	width: 169px;
 	height: 42px;
 	z-index: 2;
+}
+
+#rectangle {
+	fill: #F5FAFE;
+}
+
+#background {
+	
+}
+
+#vector {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#blob {
+	zoom: 3;
+	position: absolute;
+	top:-50px;
+	left:-80px;
 }
