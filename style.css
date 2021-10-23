@@ -21,6 +21,13 @@
 	stroke: #FCBF49;
 }
 
+#toucan {
+	position: absolute;
+	top:50px;
+	left: 115px;
+	z-index:2;
+}
+
 #learnmore {
 	fill: #163A5B;
 }
