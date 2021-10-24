@@ -19,7 +19,7 @@ var width = 1100, //assumes your image is 1024px wide
    speed = -10, //pixels per second
    duration = 10,
    endPosition = -220;
-gsap.to("#background", duration, {css:{backgroundPosition:endPosition + "px " + endPosition + "px"}, repeat:-1,yoyo:true});
+gsap.to("#background", duration, {css:{backgroundPosition:endPosition + "px " +"0px"}, repeat:-1,yoyo:true});
 
 function hover() {
   var button = document.querySelector('#rectangle');
