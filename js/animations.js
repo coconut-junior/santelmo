@@ -18,8 +18,8 @@ gsap.set("#tail", {
 gsap.to("#tail",{rotation:10,ease:Linear.circ,duration:1,repeat:-1,yoyo:true})
 
 var width = 1100, //assumes your image is 1024px wide
-   speed = -20, //pixels per second
+   speed = -10, //pixels per second
    duration = 10,
    endPosition = -220; //adjust the end position assuming 60fps
-gsap.to("#background", duration, {css:{backgroundPosition:endPosition + "px " + endPosition + "px"}, repeat:-1, ease:Linear.circ,yoyo:true});
+gsap.to("#background", duration, {css:{backgroundPosition:endPosition + "px " + endPosition + "px"}, repeat:-1,yoyo:true});
 
