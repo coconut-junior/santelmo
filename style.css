@@ -16,7 +16,7 @@
 }
 
 #rectangle {
-	
+	transition:  0.6s;
 	fill: #FCBF49;
 	stroke: #FCBF49;
 }

@@ -21,3 +21,14 @@ var width = 1100, //assumes your image is 1024px wide
    endPosition = -220;
 gsap.to("#background", duration, {css:{backgroundPosition:endPosition + "px " + endPosition + "px"}, repeat:-1,yoyo:true});
 
+function hover() {
+  var button = document.querySelector('#rectangle');
+  button.style.fill = "#FFE7B9";
+  button.style.stroke = "#FFE7B9";
+}
+
+function leave() {
+  var button = document.querySelector('#rectangle');
+  button.style.fill = "#FCBF49";
+  button.style.stroke = "#FCBF49";
+}
