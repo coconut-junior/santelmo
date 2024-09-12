@@ -1,0 +1,52 @@
+* {
+	overflow:hidden;
+}
+
+#button {
+	pointer-events:none;
+}
+
+.button,a {
+	position: absolute;
+	top: 464px;
+	left: 56px;
+	width: 187px;
+	height: 42px;
+	z-index: 2;
+}
+
+#rectangle {
+	transition:  0.6s;
+	fill: #FCBF49;
+	stroke: #FCBF49;
+}
+
+#toucan {
+	position: absolute;
+	top:50px;
+	left: 115px;
+	z-index:2;
+}
+
+#learnmore {
+	fill: #163A5B;
+}
+
+#vector {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#blob {
+	fill: url('#paint1_linear_248:8');
+	scale: 5;
+	zoom: 5;
+	position: absolute;
+	top:-20px;
+	left:-80px;
+}
+
+#santelmo {
+	transform: rotate(1deg) translateX(4px);
+}
